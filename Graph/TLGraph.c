@@ -25,8 +25,7 @@ typedef struct VertexNode {
 /* 以十字链表表示的有向图的数据结构 */
 typedef struct GraphTList {
     Tlist tList;
-    int numVertexes;
-    int numEdges;
+    int numVertexes, numEdges;
 } GraphTList;
 
 /* 创建图的十字链表结构 */
