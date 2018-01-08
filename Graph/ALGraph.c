@@ -25,10 +25,10 @@ typedef struct {
     AdjList adjList;
     int numVertextes;
     int numEdges;
-} GrapgAdjList;
+} GraphAdjList;
 
 /* 创建邻接表 */
-void CreateALGraph(GrapgAdjList *G){
+void CreateALGraph(GraphAdjList *G){
     int i, j, k;
     EdgeNode *e;
     printf("输入顶点数和边数：\n");
